@@ -1,0 +1,325 @@
+body {
+    display: flex;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.profile-image img {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+    border-radius: 50%; /* Makes the image a circle */
+    object-fit: cover; /* Ensures the image covers the entire area */
+    border: 2px solid #fff; /* Optional: Add a border */
+    display: block;
+    margin: 0 auto 10px; /* Center the image and add some space below */
+}
+
+.sidebar h3 {
+    margin-top: 0;
+}
+
+.sidebar h4 {
+    text-align: center;
+}
+
+.nav-items {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.nav-items div {
+    margin-bottom: 10px;
+}
+
+.nav-items a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-items a:hover {
+    text-decoration: underline;
+    text-decoration-color: #007BFF;
+}
+
+
+.social-icons {
+    padding-top: 50px;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 6px;
+    font-size: 24px;
+}
+
+.social-icons a:hover {
+    color: #007BFF;
+}
+
+.main-content {
+    margin-left: 220px;
+    padding: 0;
+    width: calc(100% - 220px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+
+#about h1 {
+    font-size: 30px; /* Increase the font size */
+    color: #333; /* Change the text color */
+    text-align: center; /* Center the text */
+    margin-top: 20px; /* Add some space above */
+    margin-bottom: 20px; /* Add some space below */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    font-weight: bold; /* Make the text bold */
+    font-family: 'Arial', sans-serif; /* Ensure a clean font */
+    padding-left: 90px; /* Add padding to the left */
+    padding-right: 90px;
+    opacity: 0; /* Initially hide the text */
+    transition: opacity 0.5s ease-in-out;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.projectpage-description {
+    font-size: 18px; /* Adjust the font size */
+    line-height: 1.6; /* Increase line height for better readability */
+    color: #333; /* Set a dark color for the text */
+    margin-bottom: 20px; /* Add some space below the paragraph */
+    padding: 10px 150px 20px 150px; /* Add some padding around the text */
+    text-align: center;
+}
+
+.request a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.short-border-bottom {
+    text-align: center; /* Center the content */
+    padding-bottom: 10px; /* Adjust padding as needed */
+    border-bottom: 4px solid #007BFF;
+    width: 30%;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-x: auto;
+    gap: 20px;
+    
+}
+
+.project {
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    height: 190px;
+    width: 23.5%; 
+}
+
+
+    
+.project-txt {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #333;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    h3 {
+        color: #fff;
+    }
+
+    p {
+        color: #fff;
+    }
+
+}
+
+.project:hover .project-txt {
+    display: flex;
+}
+
+#ultomiris {
+ background-image: url('./images/ultomiris.png');
+ background-size: cover; /* Ensures the image covers the entire element */
+ background-position: center;
+ background-repeat: no-repeat;
+}
+
+#myagios {
+ background-image: url('./images/myagios.jpg');
+ background-size: 100% 100%;
+ background-position: center;
+ background-repeat: no-repeat;   
+}
+
+#stellar {
+ background-image: url('./images/stellar.png');
+ background-size: 100% 100%;
+ background-position: center;
+ background-repeat: no-repeat;   
+}
+
+#elahere {
+ background-image: url('./images/elahere.png');
+ background-size: 100% 100%;
+ background-repeat: no-repeat;   
+}
+
+#new-smile {
+ background-image: url('./images/newsmile.png');
+ background-size: 100% 100%;
+ background-repeat: no-repeat;   
+}
+
+#kickscrew {
+ background-image: url('./images/kickscrew.jpg');
+ background-size: 100% 100%;
+ background-repeat: no-repeat;   
+}
+
+#igalmi {
+ background-image: url('./images/igalmi.png');
+ background-size: 100% 100%;
+ background-repeat: no-repeat;   
+}
+
+#epclusa {
+    background-image: url('./images/epclusa.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;   
+}
+
+#paxlovid {
+    background-image: url('./images/paxlovid.avif');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;   
+}
+
+#harvoni {
+    background-image: url('./images/Harvoni.png');
+    background-size: 105% 91%;
+    background-position: center;
+    background-repeat: no-repeat;   
+}
+
+#eucrisa {
+    background-image: url('./images/eucrisa.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;   
+}
+
+#kitekonnect {
+    background-image: url('./images/kite.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;   
+}
+
+
+
+#skills {
+    width: 100%;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 450px;
+    padding-top: 40px;
+    
+}
+
+.skill {
+    background-color: #007BFF;
+    color: white;
+    height: auto;
+    width: 150px;
+    height: 55px;
+    border-radius: 7px;
+    text-align: center;
+    margin: 10px; /* Adjust margin for better spacing */
+    padding: 10px; /* Add padding for better spacing */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add box-shadow for depth */
+    transition: transform 0.2s, box-shadow 0.2s; /* Add transition for hover effect */
+}
+
+.skill:nth-child(odd) {
+    background-color: #007BFF;
+    color: white;
+}
+
+.skill:nth-child(even) {
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+.skill:hover {
+    transform: translateY(-5px); /* Lift the element on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Enhance box-shadow on hover */
+}
+
+.banner-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.banner-button a:hover {
+    background-color: #0056b3;
+}
+
+html {
+    scroll-behavior: smooth;
+}
