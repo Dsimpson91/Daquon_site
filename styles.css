@@ -1,3 +1,4 @@
+
 body {
     display: flex;
     margin: 0;
@@ -17,8 +18,8 @@ body {
     text-align: center;
 }
 .profile-image img {
-    width: 100px; /* Adjust the size as needed */
-    height: 100px; /* Adjust the size as needed */
+    width: 111px; /* Adjust the size as needed */
+    height: 122px; /* Adjust the size as needed */
     border-radius: 50%; /* Makes the image a circle */
     object-fit: cover; /* Ensures the image covers the entire area */
     border: 2px solid #fff; /* Optional: Add a border */
@@ -47,12 +48,6 @@ body {
     color: white;
     text-decoration: none;
 }
-
-.nav-items a:hover {
-    text-decoration: underline;
-    text-decoration-color: #007BFF;
-}
-
 
 .social-icons {
     padding-top: 50px;
@@ -144,6 +139,9 @@ body {
     box-sizing: border-box;
     overflow-x: auto;
     gap: 20px;
+    @media only screen and (max-width:750px) {
+
+    }
     
 }
 
@@ -322,4 +320,8 @@ body {
 
 html {
     scroll-behavior: smooth;
-}
+ }
+
+
+
+

@@ -1,0 +1,47 @@
+/* Mobile styles */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.main-content {
+    margin: 0;
+    width: 100%;
+}
+
+.profile-image img {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+    border-radius: 50%; /* Makes the image a circle */
+    object-fit: cover; /* Ensures the image covers the entire area */
+    border: 2px solid #fff; /* Optional: Add a border */
+    display: block;
+    margin: 0 auto 10px; /* Center the image and add some space below */
+}
+
+.display-desktop img {
+    display: none;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center; 
+}
+.projectpage-description {
+   font-size: 24px;
+   padding: 10px 70px 20px 70px;
+}
+
+
+.project {
+    width: 46.5%;
+}
