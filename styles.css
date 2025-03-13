@@ -100,6 +100,7 @@ body {
     transition: opacity 0.5s ease-in-out;
 }
 
+
 #projects {
     display: flex;
     flex-direction: column;
@@ -137,11 +138,8 @@ body {
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
-    overflow-x: auto;
     gap: 20px;
-    @media only screen and (max-width:750px) {
-
-    }
+    
     
 }
 
@@ -153,6 +151,7 @@ body {
     flex-direction: row;
     height: 190px;
     width: 23.5%; 
+    
 }
 
 
@@ -322,6 +321,19 @@ html {
     scroll-behavior: smooth;
  }
 
+.mobile-footer {
+    display: none;
+}
 
+.mobile-menu {
+    display: none;;
+}
 
+.hamburger-icon {
+    display: none;
+}
+     
+#about h2 {
+    display: block;
+}  
 
